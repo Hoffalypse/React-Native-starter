@@ -3,6 +3,7 @@ import { createStackNavigator } from "react-navigation-stack";
 import HomeScreen from "./src/screens/HomeScreen";
 import CompnentsScreen from "./src/screens/CompnentsScreen";
 import ListScreen from "./src/screens/ListScreen";
+import ImageScreen from "./src/screens/ImageScreen";
 
 
 const navigator = createStackNavigator(
@@ -10,6 +11,7 @@ const navigator = createStackNavigator(
     Home: HomeScreen,
     Components: CompnentsScreen,
     List: ListScreen,
+    Image: ImageScreen,
   },
   {
     initialRouteName: "Home",
