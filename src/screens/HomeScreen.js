@@ -5,7 +5,7 @@ const HomeScreen = ({navigation}) => {
   
   return (
     <View>
-      <Text style={styles.text}>Deez Ba Buttons</Text>
+      <Text style={styles.text}> Da Nav Buttons</Text>
       <Button 
       title="Go to Component Demo"
       onPress={() => navigation.navigate('Components')}/>
@@ -25,6 +25,10 @@ const HomeScreen = ({navigation}) => {
       style={styles.buttonFormat}
       title="Go to Color Demo"
       onPress={() => navigation.navigate('Color')}/>
+      <Button 
+      style={styles.buttonFormat}
+      title="Go to Color Changer Demo"
+      onPress={() => navigation.navigate('Square')}/>
         
       
     </View>
